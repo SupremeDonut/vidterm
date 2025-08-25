@@ -112,7 +112,7 @@ impl Compute {
             ],
         });
 
-        // dispatch (16x16)
+        // dispatch (8x8)
         let mut enc = self.device.create_command_encoder(&Default::default());
         {
             let mut pass = enc.begin_compute_pass(&Default::default());
