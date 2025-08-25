@@ -1,0 +1,11 @@
+[package]
+name = "vidterm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytemuck = "1.23.2"
+crossterm = "0.29.0"
+ctrlc = "3.4.7"
+pollster = "0.4.0"
+wgpu = "26.0.1"
